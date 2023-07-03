@@ -1,5 +1,5 @@
 # ***PMCEditor***
-> Edit the skill points for your PMC on [Single Player Tarkov (SPT).](https://hub.sp-tarkov.com/files)
+> Edit the skill points for your PMC on [Single Player Tarkov (SPT).](https://hub.sp-tarkov.com/files/file/1312-pmc-skill-editor/)
 
 # ***Installation***
 1. Download and Unzip PMCEditor from [Releases](https://github.com/BrandoTheDev/PMCEditor/releases/download/v1.0.0/PMCEditor.exe)
