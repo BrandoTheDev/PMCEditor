@@ -88,7 +88,7 @@ namespace PMCEditor
                     int skillProgress = skill.Progress;
 
                     // Assign values to the corresponding labels and numeric up-down controls
-                    Label label = Controls.Find("label" + (i - 1), true).FirstOrDefault() as Label;
+                    Label label = Controls.Find("skill" + (i - 1), true).FirstOrDefault() as Label;
                     NumericUpDown numericUpDown = Controls.Find("numericUpDown" + (i - 1), true).FirstOrDefault() as NumericUpDown;
 
                     if (label != null)
