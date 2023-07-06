@@ -17,4 +17,4 @@
 1. Delete the edited profile completely
 2. Remove the ".backup" extension off of the file
 
-<img src="images/clean.PNG" width="800" height="600">
+<img src="images/updated.PNG" width="800" height="600">
