@@ -2,26 +2,19 @@
 > Edit the skill points for your PMC on [Single Player Tarkov (SPT).](https://hub.sp-tarkov.com/files/file/1312-pmc-skill-editor/)
 
 # ***Installation***
-1. Download and Unzip PMCEditor from [Releases](https://github.com/BrandoTheDev/PMCEditor/releases/download/v1.0.0/PMCEditor.exe)
-2. Place PMCEditor on your desktop.
-3. Locate your SPT-AKI folder.
-4. Run the program and click "File"->"Open"->
-5. Find the folder SPT-AKI/user/profiles/
-6. Open the profile inside the folder.
-7. Edit the profile to your liking.
-8. File->Save->Close the program
+1. Download and Unzip PMCEditor from [Releases](https://github.com/BrandoTheDev/PMCEditor/releases/download/v1.0.2/PMCEditor.zip)
+2. Place PMCEditor and the Netownsoft Dll anywhere together.
+4. Run the program and click File-> Open
+6. Find the folder SPT-AKI/user/profiles/
+7. Open the profile inside the folder. (Usually its an id like: 0xkjh234786sdf873234)
+8. Edit the stats to your liking.
+9. File-> Save-> Close the program
 
-<img src="images/running.PNG" width="300" height="300">
+### If something goes wrong or you want to revert changes
 
-# ***Roadmap***
-> This program was a random thought during 48 hours of no sleep.
-> Its been so much fun tho I plan on doing these changes..
+> There is a backup made that has the id.backup (0xkjh234786sdf873234.backup)
 
- - Refactor anything hardcoded
- - Make an actual Save function
- - Break code into classes
- - ACTUAL ERROR CHECKING!
- - Make Backups of profiles
- - Actually Design the UI
- - Remove all placeholder text
- - Refactor the max/min buttons
+1. Delete the edited profile completely
+2. Remove the ".backup" extension off of the file
+
+<img src="images/clean.PNG" width="800" height="600">
