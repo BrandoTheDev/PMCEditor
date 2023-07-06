@@ -1,29 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
 
-/* TODO LIST
- * Refactor anything hardcoded
- * Make an actual Save function
- * Break code into classes
- * ACTUAL ERROR CHECKING!
- * Make Backups of profiles
- * Actually Design the UI
- * Remove all placeholder text
- * Refactor the max/min buttons
- */
-
 namespace PMCEditor
 {
-    public partial class Form1 : Form
+    public partial class ProfileEditor : Form
     {
         private string _profilePath = "";
         private dynamic _jsonObject;
@@ -32,27 +15,60 @@ namespace PMCEditor
         int _numericMax = 5100;
         int _numericMin = 0;
 
-        public Form1()
+        public ProfileEditor()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Text = "SPT-AKI Profile Editor v1.0.0 - By BrandoTheDev";
+            // Make sure the title is set
+            this.Text = "SPT-AKI Profile Editor";
+
+            // Disable the entire group box while no file is loaded
+            skillGroupBox.Enabled = false;
+            userGroupBox.Enabled = false;
+
+            // Disable the save button until a file is open
+            saveToolStripMenuItem.Enabled = false;
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            openFileDialog1.ShowDialog();
+            
+            DialogResult result = openFileDialog1.ShowDialog();
+
+            if (result == DialogResult.Cancel) return;
+            
             try
             {
                 // Set our path to the profile
                 _profilePath = openFileDialog1.FileName;
 
+                try
+                {
+                    // If there is already a backup made, delete it
+                    string backupFile = _profilePath + ".backup";
+                    if(File.Exists( backupFile ))
+                    {
+                        File.Delete(backupFile);
+                    }
+
+                    // Make a backup copy 
+                    File.Copy(_profilePath, backupFile);
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception($"{ex.Message}");
+                }
+
+                // Unlock our groupboxes for editing
+                userGroupBox.Enabled = true;
+                skillGroupBox.Enabled = true;
+
                 // Read and Deserialize data
                 string jsonContent = File.ReadAllText(_profilePath);
-                dynamic jsonObject = JsonConvert.DeserializeObject(jsonContent);
+                dynamic jsonObject = Newtonsoft.Json.JsonConvert.DeserializeObject(jsonContent);
                 _jsonObject = jsonObject;
 
                 // info section
@@ -85,27 +101,28 @@ namespace PMCEditor
                         numericUpDown.Value = skillProgress;
                     }
                 }
+
+                saveToolStripMenuItem.Enabled = true;
             }
             catch (FileNotFoundException)
             {
-                // TODO LOL
+                throw new Exception("File not found.");
             }
             catch(Exception ex) 
             {
-                // TODO LOL
+                throw new Exception($"{ex.Message}");
             }
         }
 
         private void saveToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
+            // characters->pmc->Skills->Common[]->Id, Progress
             dynamic commonSkills = _jsonObject.characters.pmc.Skills.Common;
 
             // Iterate over each skill in the Common array, skipping the first two elements (bot things idk what they do)
             for (int i = 2; i < commonSkills.Count; i++)
             {
                 dynamic skill = commonSkills[i];
-
-                // Assign values to the corresponding numeric up-down controls
                 NumericUpDown numericUpDown = Controls.Find("numericUpDown" + (i - 1), true).FirstOrDefault() as NumericUpDown;
 
                 if (numericUpDown != null)
@@ -121,11 +138,11 @@ namespace PMCEditor
             File.WriteAllText(_profilePath, modifiedJsonContent);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        // Max all values
+        private void maxAllSkillPointsButton_Click(object sender, EventArgs e)
         {
             for (int i = 2; i < 54; i++)
             {
-                // Assign values to the corresponding numeric up-down controls
                 NumericUpDown numericUpDown = Controls.Find("numericUpDown" + (i - 1), true).FirstOrDefault() as NumericUpDown;
 
                 if (numericUpDown != null)
@@ -137,11 +154,11 @@ namespace PMCEditor
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        // Min all values
+        private void zeroAllSkillPointsButton_Click(object sender, EventArgs e)
         {
             for (int i = 2; i < 54; i++)
             {
-                // Assign values to the corresponding numeric up-down controls
                 NumericUpDown numericUpDown = Controls.Find("numericUpDown" + (i - 1), true).FirstOrDefault() as NumericUpDown;
 
                 if (numericUpDown != null)

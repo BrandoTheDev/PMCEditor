@@ -1,6 +1,6 @@
 ﻿namespace PMCEditor
 {
-    partial class Form1
+    partial class ProfileEditor
     {
         /// <summary>
         /// Required designer variable.
@@ -28,158 +28,132 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProfileEditor));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.skillGroupBox = new System.Windows.Forms.GroupBox();
+            this.userGroupBox = new System.Windows.Forms.GroupBox();
             this._profileName = new System.Windows.Forms.Label();
             this._gameEdition = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.label6 = new System.Windows.Forms.Label();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.label9 = new System.Windows.Forms.Label();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
-            this.label10 = new System.Windows.Forms.Label();
-            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
-            this.label11 = new System.Windows.Forms.Label();
-            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
-            this.label12 = new System.Windows.Forms.Label();
-            this.numericUpDown13 = new System.Windows.Forms.NumericUpDown();
-            this.label13 = new System.Windows.Forms.Label();
-            this.numericUpDown14 = new System.Windows.Forms.NumericUpDown();
-            this.label14 = new System.Windows.Forms.Label();
-            this.numericUpDown15 = new System.Windows.Forms.NumericUpDown();
-            this.label15 = new System.Windows.Forms.Label();
-            this.numericUpDown16 = new System.Windows.Forms.NumericUpDown();
-            this.label16 = new System.Windows.Forms.Label();
-            this.numericUpDown17 = new System.Windows.Forms.NumericUpDown();
-            this.label17 = new System.Windows.Forms.Label();
-            this.numericUpDown18 = new System.Windows.Forms.NumericUpDown();
-            this.label18 = new System.Windows.Forms.Label();
-            this.numericUpDown19 = new System.Windows.Forms.NumericUpDown();
-            this.label19 = new System.Windows.Forms.Label();
-            this.numericUpDown20 = new System.Windows.Forms.NumericUpDown();
-            this.label20 = new System.Windows.Forms.Label();
-            this.numericUpDown21 = new System.Windows.Forms.NumericUpDown();
-            this.label21 = new System.Windows.Forms.Label();
-            this.numericUpDown22 = new System.Windows.Forms.NumericUpDown();
-            this.label22 = new System.Windows.Forms.Label();
-            this.numericUpDown23 = new System.Windows.Forms.NumericUpDown();
-            this.label23 = new System.Windows.Forms.Label();
-            this.numericUpDown24 = new System.Windows.Forms.NumericUpDown();
-            this.label24 = new System.Windows.Forms.Label();
-            this.numericUpDown25 = new System.Windows.Forms.NumericUpDown();
-            this.label25 = new System.Windows.Forms.Label();
-            this.numericUpDown26 = new System.Windows.Forms.NumericUpDown();
-            this.label26 = new System.Windows.Forms.Label();
-            this.numericUpDown27 = new System.Windows.Forms.NumericUpDown();
-            this.label27 = new System.Windows.Forms.Label();
-            this.numericUpDown28 = new System.Windows.Forms.NumericUpDown();
-            this.label28 = new System.Windows.Forms.Label();
-            this.numericUpDown29 = new System.Windows.Forms.NumericUpDown();
-            this.label29 = new System.Windows.Forms.Label();
-            this.numericUpDown30 = new System.Windows.Forms.NumericUpDown();
-            this.label30 = new System.Windows.Forms.Label();
-            this.numericUpDown31 = new System.Windows.Forms.NumericUpDown();
-            this.label31 = new System.Windows.Forms.Label();
-            this.numericUpDown32 = new System.Windows.Forms.NumericUpDown();
-            this.label32 = new System.Windows.Forms.Label();
-            this.numericUpDown33 = new System.Windows.Forms.NumericUpDown();
-            this.label33 = new System.Windows.Forms.Label();
-            this.numericUpDown34 = new System.Windows.Forms.NumericUpDown();
-            this.label34 = new System.Windows.Forms.Label();
-            this.numericUpDown35 = new System.Windows.Forms.NumericUpDown();
-            this.label35 = new System.Windows.Forms.Label();
-            this.numericUpDown36 = new System.Windows.Forms.NumericUpDown();
-            this.label36 = new System.Windows.Forms.Label();
-            this.numericUpDown37 = new System.Windows.Forms.NumericUpDown();
-            this.label37 = new System.Windows.Forms.Label();
-            this.numericUpDown38 = new System.Windows.Forms.NumericUpDown();
-            this.label38 = new System.Windows.Forms.Label();
-            this.numericUpDown39 = new System.Windows.Forms.NumericUpDown();
-            this.label39 = new System.Windows.Forms.Label();
-            this.numericUpDown40 = new System.Windows.Forms.NumericUpDown();
-            this.label40 = new System.Windows.Forms.Label();
-            this.numericUpDown41 = new System.Windows.Forms.NumericUpDown();
-            this.label41 = new System.Windows.Forms.Label();
-            this.numericUpDown42 = new System.Windows.Forms.NumericUpDown();
-            this.label42 = new System.Windows.Forms.Label();
-            this.numericUpDown43 = new System.Windows.Forms.NumericUpDown();
-            this.label43 = new System.Windows.Forms.Label();
-            this.numericUpDown44 = new System.Windows.Forms.NumericUpDown();
-            this.label44 = new System.Windows.Forms.Label();
-            this.numericUpDown45 = new System.Windows.Forms.NumericUpDown();
-            this.label45 = new System.Windows.Forms.Label();
+            this.zeroAllSkillPointsButton = new System.Windows.Forms.Button();
+            this.maxAllSkillPointsButton = new System.Windows.Forms.Button();
             this.numericUpDown46 = new System.Windows.Forms.NumericUpDown();
-            this.label46 = new System.Windows.Forms.Label();
+            this.skill46 = new System.Windows.Forms.Label();
             this.numericUpDown47 = new System.Windows.Forms.NumericUpDown();
-            this.label47 = new System.Windows.Forms.Label();
+            this.skill47 = new System.Windows.Forms.Label();
             this.numericUpDown48 = new System.Windows.Forms.NumericUpDown();
-            this.label48 = new System.Windows.Forms.Label();
+            this.skill48 = new System.Windows.Forms.Label();
             this.numericUpDown49 = new System.Windows.Forms.NumericUpDown();
-            this.label49 = new System.Windows.Forms.Label();
+            this.skill49 = new System.Windows.Forms.Label();
             this.numericUpDown50 = new System.Windows.Forms.NumericUpDown();
-            this.label50 = new System.Windows.Forms.Label();
+            this.skill50 = new System.Windows.Forms.Label();
             this.numericUpDown51 = new System.Windows.Forms.NumericUpDown();
-            this.label51 = new System.Windows.Forms.Label();
+            this.skill51 = new System.Windows.Forms.Label();
             this.numericUpDown52 = new System.Windows.Forms.NumericUpDown();
-            this.label52 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.skill52 = new System.Windows.Forms.Label();
+            this.numericUpDown37 = new System.Windows.Forms.NumericUpDown();
+            this.skill37 = new System.Windows.Forms.Label();
+            this.numericUpDown38 = new System.Windows.Forms.NumericUpDown();
+            this.skill38 = new System.Windows.Forms.Label();
+            this.numericUpDown39 = new System.Windows.Forms.NumericUpDown();
+            this.skill39 = new System.Windows.Forms.Label();
+            this.numericUpDown40 = new System.Windows.Forms.NumericUpDown();
+            this.skill40 = new System.Windows.Forms.Label();
+            this.numericUpDown41 = new System.Windows.Forms.NumericUpDown();
+            this.skill41 = new System.Windows.Forms.Label();
+            this.numericUpDown42 = new System.Windows.Forms.NumericUpDown();
+            this.skill42 = new System.Windows.Forms.Label();
+            this.numericUpDown43 = new System.Windows.Forms.NumericUpDown();
+            this.skill43 = new System.Windows.Forms.Label();
+            this.numericUpDown44 = new System.Windows.Forms.NumericUpDown();
+            this.skill44 = new System.Windows.Forms.Label();
+            this.numericUpDown45 = new System.Windows.Forms.NumericUpDown();
+            this.skill45 = new System.Windows.Forms.Label();
+            this.numericUpDown28 = new System.Windows.Forms.NumericUpDown();
+            this.skill28 = new System.Windows.Forms.Label();
+            this.numericUpDown29 = new System.Windows.Forms.NumericUpDown();
+            this.skill29 = new System.Windows.Forms.Label();
+            this.numericUpDown30 = new System.Windows.Forms.NumericUpDown();
+            this.skill30 = new System.Windows.Forms.Label();
+            this.numericUpDown31 = new System.Windows.Forms.NumericUpDown();
+            this.skill31 = new System.Windows.Forms.Label();
+            this.numericUpDown32 = new System.Windows.Forms.NumericUpDown();
+            this.skill32 = new System.Windows.Forms.Label();
+            this.numericUpDown33 = new System.Windows.Forms.NumericUpDown();
+            this.skill33 = new System.Windows.Forms.Label();
+            this.numericUpDown34 = new System.Windows.Forms.NumericUpDown();
+            this.skill34 = new System.Windows.Forms.Label();
+            this.numericUpDown35 = new System.Windows.Forms.NumericUpDown();
+            this.skill35 = new System.Windows.Forms.Label();
+            this.numericUpDown36 = new System.Windows.Forms.NumericUpDown();
+            this.skill36 = new System.Windows.Forms.Label();
+            this.numericUpDown19 = new System.Windows.Forms.NumericUpDown();
+            this.skill19 = new System.Windows.Forms.Label();
+            this.numericUpDown20 = new System.Windows.Forms.NumericUpDown();
+            this.skill20 = new System.Windows.Forms.Label();
+            this.numericUpDown21 = new System.Windows.Forms.NumericUpDown();
+            this.skill21 = new System.Windows.Forms.Label();
+            this.numericUpDown22 = new System.Windows.Forms.NumericUpDown();
+            this.skill22 = new System.Windows.Forms.Label();
+            this.numericUpDown23 = new System.Windows.Forms.NumericUpDown();
+            this.skill23 = new System.Windows.Forms.Label();
+            this.numericUpDown24 = new System.Windows.Forms.NumericUpDown();
+            this.skill24 = new System.Windows.Forms.Label();
+            this.numericUpDown25 = new System.Windows.Forms.NumericUpDown();
+            this.skill25 = new System.Windows.Forms.Label();
+            this.numericUpDown26 = new System.Windows.Forms.NumericUpDown();
+            this.skill26 = new System.Windows.Forms.Label();
+            this.numericUpDown27 = new System.Windows.Forms.NumericUpDown();
+            this.skill27 = new System.Windows.Forms.Label();
+            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
+            this.skill10 = new System.Windows.Forms.Label();
+            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
+            this.skill11 = new System.Windows.Forms.Label();
+            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
+            this.skill12 = new System.Windows.Forms.Label();
+            this.numericUpDown13 = new System.Windows.Forms.NumericUpDown();
+            this.skill13 = new System.Windows.Forms.Label();
+            this.numericUpDown14 = new System.Windows.Forms.NumericUpDown();
+            this.skill14 = new System.Windows.Forms.Label();
+            this.numericUpDown15 = new System.Windows.Forms.NumericUpDown();
+            this.skill15 = new System.Windows.Forms.Label();
+            this.numericUpDown16 = new System.Windows.Forms.NumericUpDown();
+            this.skill16 = new System.Windows.Forms.Label();
+            this.numericUpDown17 = new System.Windows.Forms.NumericUpDown();
+            this.skill17 = new System.Windows.Forms.Label();
+            this.numericUpDown18 = new System.Windows.Forms.NumericUpDown();
+            this.skill18 = new System.Windows.Forms.Label();
+            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
+            this.skill9 = new System.Windows.Forms.Label();
+            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            this.skill8 = new System.Windows.Forms.Label();
+            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
+            this.skill7 = new System.Windows.Forms.Label();
+            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            this.skill6 = new System.Windows.Forms.Label();
+            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.skill5 = new System.Windows.Forms.Label();
+            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.skill4 = new System.Windows.Forms.Label();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.skill3 = new System.Windows.Forms.Label();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.skill2 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.skill1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown36)).BeginInit();
+            this.skillGroupBox.SuspendLayout();
+            this.userGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown49)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown51)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown52)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown37)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown38)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown39)).BeginInit();
@@ -189,22 +163,52 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown43)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown44)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(605, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(698, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -220,179 +224,9 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.numericUpDown46);
-            this.groupBox2.Controls.Add(this.label46);
-            this.groupBox2.Controls.Add(this.numericUpDown47);
-            this.groupBox2.Controls.Add(this.label47);
-            this.groupBox2.Controls.Add(this.numericUpDown48);
-            this.groupBox2.Controls.Add(this.label48);
-            this.groupBox2.Controls.Add(this.numericUpDown49);
-            this.groupBox2.Controls.Add(this.label49);
-            this.groupBox2.Controls.Add(this.numericUpDown50);
-            this.groupBox2.Controls.Add(this.label50);
-            this.groupBox2.Controls.Add(this.numericUpDown51);
-            this.groupBox2.Controls.Add(this.label51);
-            this.groupBox2.Controls.Add(this.numericUpDown52);
-            this.groupBox2.Controls.Add(this.label52);
-            this.groupBox2.Controls.Add(this.numericUpDown37);
-            this.groupBox2.Controls.Add(this.label37);
-            this.groupBox2.Controls.Add(this.numericUpDown38);
-            this.groupBox2.Controls.Add(this.label38);
-            this.groupBox2.Controls.Add(this.numericUpDown39);
-            this.groupBox2.Controls.Add(this.label39);
-            this.groupBox2.Controls.Add(this.numericUpDown40);
-            this.groupBox2.Controls.Add(this.label40);
-            this.groupBox2.Controls.Add(this.numericUpDown41);
-            this.groupBox2.Controls.Add(this.label41);
-            this.groupBox2.Controls.Add(this.numericUpDown42);
-            this.groupBox2.Controls.Add(this.label42);
-            this.groupBox2.Controls.Add(this.numericUpDown43);
-            this.groupBox2.Controls.Add(this.label43);
-            this.groupBox2.Controls.Add(this.numericUpDown44);
-            this.groupBox2.Controls.Add(this.label44);
-            this.groupBox2.Controls.Add(this.numericUpDown45);
-            this.groupBox2.Controls.Add(this.label45);
-            this.groupBox2.Controls.Add(this.numericUpDown28);
-            this.groupBox2.Controls.Add(this.label28);
-            this.groupBox2.Controls.Add(this.numericUpDown29);
-            this.groupBox2.Controls.Add(this.label29);
-            this.groupBox2.Controls.Add(this.numericUpDown30);
-            this.groupBox2.Controls.Add(this.label30);
-            this.groupBox2.Controls.Add(this.numericUpDown31);
-            this.groupBox2.Controls.Add(this.label31);
-            this.groupBox2.Controls.Add(this.numericUpDown32);
-            this.groupBox2.Controls.Add(this.label32);
-            this.groupBox2.Controls.Add(this.numericUpDown33);
-            this.groupBox2.Controls.Add(this.label33);
-            this.groupBox2.Controls.Add(this.numericUpDown34);
-            this.groupBox2.Controls.Add(this.label34);
-            this.groupBox2.Controls.Add(this.numericUpDown35);
-            this.groupBox2.Controls.Add(this.label35);
-            this.groupBox2.Controls.Add(this.numericUpDown36);
-            this.groupBox2.Controls.Add(this.label36);
-            this.groupBox2.Controls.Add(this.numericUpDown19);
-            this.groupBox2.Controls.Add(this.label19);
-            this.groupBox2.Controls.Add(this.numericUpDown20);
-            this.groupBox2.Controls.Add(this.label20);
-            this.groupBox2.Controls.Add(this.numericUpDown21);
-            this.groupBox2.Controls.Add(this.label21);
-            this.groupBox2.Controls.Add(this.numericUpDown22);
-            this.groupBox2.Controls.Add(this.label22);
-            this.groupBox2.Controls.Add(this.numericUpDown23);
-            this.groupBox2.Controls.Add(this.label23);
-            this.groupBox2.Controls.Add(this.numericUpDown24);
-            this.groupBox2.Controls.Add(this.label24);
-            this.groupBox2.Controls.Add(this.numericUpDown25);
-            this.groupBox2.Controls.Add(this.label25);
-            this.groupBox2.Controls.Add(this.numericUpDown26);
-            this.groupBox2.Controls.Add(this.label26);
-            this.groupBox2.Controls.Add(this.numericUpDown27);
-            this.groupBox2.Controls.Add(this.label27);
-            this.groupBox2.Controls.Add(this.numericUpDown10);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.numericUpDown11);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.numericUpDown12);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.numericUpDown13);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.numericUpDown14);
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.numericUpDown15);
-            this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.numericUpDown16);
-            this.groupBox2.Controls.Add(this.label16);
-            this.groupBox2.Controls.Add(this.numericUpDown17);
-            this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Controls.Add(this.numericUpDown18);
-            this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Controls.Add(this.numericUpDown9);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.numericUpDown8);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.numericUpDown7);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.numericUpDown6);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.numericUpDown5);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.numericUpDown4);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.numericUpDown3);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.numericUpDown2);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.numericUpDown1);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox2.Location = new System.Drawing.Point(13, 28);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(775, 395);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Skills";
-            // 
-            // _profileName
-            // 
-            this._profileName.AutoSize = true;
-            this._profileName.Location = new System.Drawing.Point(247, 9);
-            this._profileName.Name = "_profileName";
-            this._profileName.Size = new System.Drawing.Size(64, 13);
-            this._profileName.TabIndex = 0;
-            this._profileName.Text = "ProfileName";
-            // 
-            // _gameEdition
-            // 
-            this._gameEdition.AutoSize = true;
-            this._gameEdition.Location = new System.Drawing.Point(384, 9);
-            this._gameEdition.Name = "_gameEdition";
-            this._gameEdition.Size = new System.Drawing.Size(67, 13);
-            this._gameEdition.TabIndex = 1;
-            this._gameEdition.Text = "GameEdition";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label3";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(6, 43);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown1.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 66);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label4";
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(6, 82);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown2.TabIndex = 3;
             // 
             // saveToolStripMenuItem
             // 
@@ -401,879 +235,1036 @@
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click_1);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 105);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Location = new System.Drawing.Point(6, 122);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown3.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 145);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "label4";
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.Location = new System.Drawing.Point(6, 161);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown4.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 185);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "label5";
-            // 
-            // numericUpDown5
-            // 
-            this.numericUpDown5.Location = new System.Drawing.Point(6, 201);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown5.TabIndex = 9;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 224);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "label6";
-            // 
-            // numericUpDown6
-            // 
-            this.numericUpDown6.Location = new System.Drawing.Point(6, 240);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown6.TabIndex = 11;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 267);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "label7";
-            // 
-            // numericUpDown7
-            // 
-            this.numericUpDown7.Location = new System.Drawing.Point(6, 284);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown7.TabIndex = 13;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 311);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "label8";
-            // 
-            // numericUpDown8
-            // 
-            this.numericUpDown8.Location = new System.Drawing.Point(6, 328);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown8.TabIndex = 15;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 355);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "label9";
-            // 
-            // numericUpDown9
-            // 
-            this.numericUpDown9.Location = new System.Drawing.Point(6, 372);
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(83, 20);
-            this.numericUpDown9.TabIndex = 17;
-            // 
-            // numericUpDown10
-            // 
-            this.numericUpDown10.Location = new System.Drawing.Point(95, 372);
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown10.TabIndex = 35;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(95, 355);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 34;
-            this.label10.Text = "label10";
-            // 
-            // numericUpDown11
-            // 
-            this.numericUpDown11.Location = new System.Drawing.Point(95, 328);
-            this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown11.TabIndex = 33;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(95, 311);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 32;
-            this.label11.Text = "label11";
-            // 
-            // numericUpDown12
-            // 
-            this.numericUpDown12.Location = new System.Drawing.Point(95, 284);
-            this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown12.TabIndex = 31;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(95, 267);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 13);
-            this.label12.TabIndex = 30;
-            this.label12.Text = "label12";
-            // 
-            // numericUpDown13
-            // 
-            this.numericUpDown13.Location = new System.Drawing.Point(95, 240);
-            this.numericUpDown13.Name = "numericUpDown13";
-            this.numericUpDown13.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown13.TabIndex = 29;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(92, 224);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 13);
-            this.label13.TabIndex = 28;
-            this.label13.Text = "label13";
-            // 
-            // numericUpDown14
-            // 
-            this.numericUpDown14.Location = new System.Drawing.Point(95, 201);
-            this.numericUpDown14.Name = "numericUpDown14";
-            this.numericUpDown14.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown14.TabIndex = 27;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(92, 185);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 13);
-            this.label14.TabIndex = 26;
-            this.label14.Text = "label14";
-            // 
-            // numericUpDown15
-            // 
-            this.numericUpDown15.Location = new System.Drawing.Point(95, 162);
-            this.numericUpDown15.Name = "numericUpDown15";
-            this.numericUpDown15.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown15.TabIndex = 25;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(92, 145);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 13);
-            this.label15.TabIndex = 24;
-            this.label15.Text = "label15";
-            // 
-            // numericUpDown16
-            // 
-            this.numericUpDown16.Location = new System.Drawing.Point(95, 122);
-            this.numericUpDown16.Name = "numericUpDown16";
-            this.numericUpDown16.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown16.TabIndex = 23;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(92, 105);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 13);
-            this.label16.TabIndex = 22;
-            this.label16.Text = "label16";
-            // 
-            // numericUpDown17
-            // 
-            this.numericUpDown17.Location = new System.Drawing.Point(95, 82);
-            this.numericUpDown17.Name = "numericUpDown17";
-            this.numericUpDown17.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown17.TabIndex = 21;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(92, 66);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(35, 13);
-            this.label17.TabIndex = 20;
-            this.label17.Text = "label4";
-            // 
-            // numericUpDown18
-            // 
-            this.numericUpDown18.Location = new System.Drawing.Point(95, 43);
-            this.numericUpDown18.Name = "numericUpDown18";
-            this.numericUpDown18.Size = new System.Drawing.Size(91, 20);
-            this.numericUpDown18.TabIndex = 19;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(92, 27);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(35, 13);
-            this.label18.TabIndex = 18;
-            this.label18.Text = "label3";
-            // 
-            // numericUpDown19
-            // 
-            this.numericUpDown19.Location = new System.Drawing.Point(192, 372);
-            this.numericUpDown19.Name = "numericUpDown19";
-            this.numericUpDown19.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown19.TabIndex = 53;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(192, 355);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(41, 13);
-            this.label19.TabIndex = 52;
-            this.label19.Text = "label19";
-            // 
-            // numericUpDown20
-            // 
-            this.numericUpDown20.Location = new System.Drawing.Point(192, 328);
-            this.numericUpDown20.Name = "numericUpDown20";
-            this.numericUpDown20.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown20.TabIndex = 51;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(192, 311);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(41, 13);
-            this.label20.TabIndex = 50;
-            this.label20.Text = "label20";
-            // 
-            // numericUpDown21
-            // 
-            this.numericUpDown21.Location = new System.Drawing.Point(192, 284);
-            this.numericUpDown21.Name = "numericUpDown21";
-            this.numericUpDown21.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown21.TabIndex = 49;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(192, 267);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(41, 13);
-            this.label21.TabIndex = 48;
-            this.label21.Text = "label21";
-            // 
-            // numericUpDown22
-            // 
-            this.numericUpDown22.Location = new System.Drawing.Point(192, 240);
-            this.numericUpDown22.Name = "numericUpDown22";
-            this.numericUpDown22.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown22.TabIndex = 47;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(189, 224);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(41, 13);
-            this.label22.TabIndex = 46;
-            this.label22.Text = "label22";
-            // 
-            // numericUpDown23
-            // 
-            this.numericUpDown23.Location = new System.Drawing.Point(192, 201);
-            this.numericUpDown23.Name = "numericUpDown23";
-            this.numericUpDown23.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown23.TabIndex = 45;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(189, 185);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(41, 13);
-            this.label23.TabIndex = 44;
-            this.label23.Text = "label23";
-            // 
-            // numericUpDown24
-            // 
-            this.numericUpDown24.Location = new System.Drawing.Point(192, 162);
-            this.numericUpDown24.Name = "numericUpDown24";
-            this.numericUpDown24.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown24.TabIndex = 43;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(189, 145);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(41, 13);
-            this.label24.TabIndex = 42;
-            this.label24.Text = "label24";
-            // 
-            // numericUpDown25
-            // 
-            this.numericUpDown25.Location = new System.Drawing.Point(192, 122);
-            this.numericUpDown25.Name = "numericUpDown25";
-            this.numericUpDown25.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown25.TabIndex = 41;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(189, 105);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(41, 13);
-            this.label25.TabIndex = 40;
-            this.label25.Text = "label25";
-            // 
-            // numericUpDown26
-            // 
-            this.numericUpDown26.Location = new System.Drawing.Point(192, 82);
-            this.numericUpDown26.Name = "numericUpDown26";
-            this.numericUpDown26.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown26.TabIndex = 39;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(189, 66);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(35, 13);
-            this.label26.TabIndex = 38;
-            this.label26.Text = "label4";
-            // 
-            // numericUpDown27
-            // 
-            this.numericUpDown27.Location = new System.Drawing.Point(192, 43);
-            this.numericUpDown27.Name = "numericUpDown27";
-            this.numericUpDown27.Size = new System.Drawing.Size(98, 20);
-            this.numericUpDown27.TabIndex = 37;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(189, 27);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(35, 13);
-            this.label27.TabIndex = 36;
-            this.label27.Text = "label3";
-            // 
-            // numericUpDown28
-            // 
-            this.numericUpDown28.Location = new System.Drawing.Point(296, 372);
-            this.numericUpDown28.Name = "numericUpDown28";
-            this.numericUpDown28.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown28.TabIndex = 71;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(296, 355);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(41, 13);
-            this.label28.TabIndex = 70;
-            this.label28.Text = "label28";
-            // 
-            // numericUpDown29
-            // 
-            this.numericUpDown29.Location = new System.Drawing.Point(296, 328);
-            this.numericUpDown29.Name = "numericUpDown29";
-            this.numericUpDown29.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown29.TabIndex = 69;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(296, 311);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(41, 13);
-            this.label29.TabIndex = 68;
-            this.label29.Text = "label29";
-            // 
-            // numericUpDown30
-            // 
-            this.numericUpDown30.Location = new System.Drawing.Point(296, 284);
-            this.numericUpDown30.Name = "numericUpDown30";
-            this.numericUpDown30.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown30.TabIndex = 67;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(296, 267);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(41, 13);
-            this.label30.TabIndex = 66;
-            this.label30.Text = "label30";
-            // 
-            // numericUpDown31
-            // 
-            this.numericUpDown31.Location = new System.Drawing.Point(296, 240);
-            this.numericUpDown31.Name = "numericUpDown31";
-            this.numericUpDown31.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown31.TabIndex = 65;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(293, 224);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(41, 13);
-            this.label31.TabIndex = 64;
-            this.label31.Text = "label31";
-            // 
-            // numericUpDown32
-            // 
-            this.numericUpDown32.Location = new System.Drawing.Point(296, 201);
-            this.numericUpDown32.Name = "numericUpDown32";
-            this.numericUpDown32.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown32.TabIndex = 63;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(293, 185);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(41, 13);
-            this.label32.TabIndex = 62;
-            this.label32.Text = "label32";
-            // 
-            // numericUpDown33
-            // 
-            this.numericUpDown33.Location = new System.Drawing.Point(296, 162);
-            this.numericUpDown33.Name = "numericUpDown33";
-            this.numericUpDown33.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown33.TabIndex = 61;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(293, 145);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(41, 13);
-            this.label33.TabIndex = 60;
-            this.label33.Text = "label33";
-            // 
-            // numericUpDown34
-            // 
-            this.numericUpDown34.Location = new System.Drawing.Point(296, 122);
-            this.numericUpDown34.Name = "numericUpDown34";
-            this.numericUpDown34.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown34.TabIndex = 59;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(293, 105);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(41, 13);
-            this.label34.TabIndex = 58;
-            this.label34.Text = "label34";
-            // 
-            // numericUpDown35
-            // 
-            this.numericUpDown35.Location = new System.Drawing.Point(296, 82);
-            this.numericUpDown35.Name = "numericUpDown35";
-            this.numericUpDown35.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown35.TabIndex = 57;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(293, 66);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(35, 13);
-            this.label35.TabIndex = 56;
-            this.label35.Text = "label4";
-            // 
-            // numericUpDown36
-            // 
-            this.numericUpDown36.Location = new System.Drawing.Point(296, 43);
-            this.numericUpDown36.Name = "numericUpDown36";
-            this.numericUpDown36.Size = new System.Drawing.Size(95, 20);
-            this.numericUpDown36.TabIndex = 55;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(293, 27);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(35, 13);
-            this.label36.TabIndex = 54;
-            this.label36.Text = "label3";
-            // 
-            // numericUpDown37
-            // 
-            this.numericUpDown37.Location = new System.Drawing.Point(397, 372);
-            this.numericUpDown37.Name = "numericUpDown37";
-            this.numericUpDown37.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown37.TabIndex = 89;
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(397, 355);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(41, 13);
-            this.label37.TabIndex = 88;
-            this.label37.Text = "label37";
-            // 
-            // numericUpDown38
-            // 
-            this.numericUpDown38.Location = new System.Drawing.Point(397, 328);
-            this.numericUpDown38.Name = "numericUpDown38";
-            this.numericUpDown38.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown38.TabIndex = 87;
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(397, 311);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(41, 13);
-            this.label38.TabIndex = 86;
-            this.label38.Text = "label38";
-            // 
-            // numericUpDown39
-            // 
-            this.numericUpDown39.Location = new System.Drawing.Point(397, 284);
-            this.numericUpDown39.Name = "numericUpDown39";
-            this.numericUpDown39.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown39.TabIndex = 85;
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(397, 267);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(41, 13);
-            this.label39.TabIndex = 84;
-            this.label39.Text = "label39";
-            // 
-            // numericUpDown40
-            // 
-            this.numericUpDown40.Location = new System.Drawing.Point(397, 240);
-            this.numericUpDown40.Name = "numericUpDown40";
-            this.numericUpDown40.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown40.TabIndex = 83;
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(394, 224);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(41, 13);
-            this.label40.TabIndex = 82;
-            this.label40.Text = "label40";
-            // 
-            // numericUpDown41
-            // 
-            this.numericUpDown41.Location = new System.Drawing.Point(397, 201);
-            this.numericUpDown41.Name = "numericUpDown41";
-            this.numericUpDown41.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown41.TabIndex = 81;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(394, 185);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(41, 13);
-            this.label41.TabIndex = 80;
-            this.label41.Text = "label41";
-            // 
-            // numericUpDown42
-            // 
-            this.numericUpDown42.Location = new System.Drawing.Point(397, 162);
-            this.numericUpDown42.Name = "numericUpDown42";
-            this.numericUpDown42.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown42.TabIndex = 79;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(394, 145);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(41, 13);
-            this.label42.TabIndex = 78;
-            this.label42.Text = "label42";
-            // 
-            // numericUpDown43
-            // 
-            this.numericUpDown43.Location = new System.Drawing.Point(397, 122);
-            this.numericUpDown43.Name = "numericUpDown43";
-            this.numericUpDown43.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown43.TabIndex = 77;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(394, 105);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(41, 13);
-            this.label43.TabIndex = 76;
-            this.label43.Text = "label43";
-            // 
-            // numericUpDown44
-            // 
-            this.numericUpDown44.Location = new System.Drawing.Point(397, 82);
-            this.numericUpDown44.Name = "numericUpDown44";
-            this.numericUpDown44.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown44.TabIndex = 75;
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(394, 66);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(35, 13);
-            this.label44.TabIndex = 74;
-            this.label44.Text = "label4";
-            // 
-            // numericUpDown45
-            // 
-            this.numericUpDown45.Location = new System.Drawing.Point(397, 43);
-            this.numericUpDown45.Name = "numericUpDown45";
-            this.numericUpDown45.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown45.TabIndex = 73;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(394, 27);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(35, 13);
-            this.label45.TabIndex = 72;
-            this.label45.Text = "label3";
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // skillGroupBox
+            // 
+            this.skillGroupBox.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.skillGroupBox.Controls.Add(this.userGroupBox);
+            this.skillGroupBox.Controls.Add(this.zeroAllSkillPointsButton);
+            this.skillGroupBox.Controls.Add(this.maxAllSkillPointsButton);
+            this.skillGroupBox.Controls.Add(this.numericUpDown46);
+            this.skillGroupBox.Controls.Add(this.skill46);
+            this.skillGroupBox.Controls.Add(this.numericUpDown47);
+            this.skillGroupBox.Controls.Add(this.skill47);
+            this.skillGroupBox.Controls.Add(this.numericUpDown48);
+            this.skillGroupBox.Controls.Add(this.skill48);
+            this.skillGroupBox.Controls.Add(this.numericUpDown49);
+            this.skillGroupBox.Controls.Add(this.skill49);
+            this.skillGroupBox.Controls.Add(this.numericUpDown50);
+            this.skillGroupBox.Controls.Add(this.skill50);
+            this.skillGroupBox.Controls.Add(this.numericUpDown51);
+            this.skillGroupBox.Controls.Add(this.skill51);
+            this.skillGroupBox.Controls.Add(this.numericUpDown52);
+            this.skillGroupBox.Controls.Add(this.skill52);
+            this.skillGroupBox.Controls.Add(this.numericUpDown37);
+            this.skillGroupBox.Controls.Add(this.skill37);
+            this.skillGroupBox.Controls.Add(this.numericUpDown38);
+            this.skillGroupBox.Controls.Add(this.skill38);
+            this.skillGroupBox.Controls.Add(this.numericUpDown39);
+            this.skillGroupBox.Controls.Add(this.skill39);
+            this.skillGroupBox.Controls.Add(this.numericUpDown40);
+            this.skillGroupBox.Controls.Add(this.skill40);
+            this.skillGroupBox.Controls.Add(this.numericUpDown41);
+            this.skillGroupBox.Controls.Add(this.skill41);
+            this.skillGroupBox.Controls.Add(this.numericUpDown42);
+            this.skillGroupBox.Controls.Add(this.skill42);
+            this.skillGroupBox.Controls.Add(this.numericUpDown43);
+            this.skillGroupBox.Controls.Add(this.skill43);
+            this.skillGroupBox.Controls.Add(this.numericUpDown44);
+            this.skillGroupBox.Controls.Add(this.skill44);
+            this.skillGroupBox.Controls.Add(this.numericUpDown45);
+            this.skillGroupBox.Controls.Add(this.skill45);
+            this.skillGroupBox.Controls.Add(this.numericUpDown28);
+            this.skillGroupBox.Controls.Add(this.skill28);
+            this.skillGroupBox.Controls.Add(this.numericUpDown29);
+            this.skillGroupBox.Controls.Add(this.skill29);
+            this.skillGroupBox.Controls.Add(this.numericUpDown30);
+            this.skillGroupBox.Controls.Add(this.skill30);
+            this.skillGroupBox.Controls.Add(this.numericUpDown31);
+            this.skillGroupBox.Controls.Add(this.skill31);
+            this.skillGroupBox.Controls.Add(this.numericUpDown32);
+            this.skillGroupBox.Controls.Add(this.skill32);
+            this.skillGroupBox.Controls.Add(this.numericUpDown33);
+            this.skillGroupBox.Controls.Add(this.skill33);
+            this.skillGroupBox.Controls.Add(this.numericUpDown34);
+            this.skillGroupBox.Controls.Add(this.skill34);
+            this.skillGroupBox.Controls.Add(this.numericUpDown35);
+            this.skillGroupBox.Controls.Add(this.skill35);
+            this.skillGroupBox.Controls.Add(this.numericUpDown36);
+            this.skillGroupBox.Controls.Add(this.skill36);
+            this.skillGroupBox.Controls.Add(this.numericUpDown19);
+            this.skillGroupBox.Controls.Add(this.skill19);
+            this.skillGroupBox.Controls.Add(this.numericUpDown20);
+            this.skillGroupBox.Controls.Add(this.skill20);
+            this.skillGroupBox.Controls.Add(this.numericUpDown21);
+            this.skillGroupBox.Controls.Add(this.skill21);
+            this.skillGroupBox.Controls.Add(this.numericUpDown22);
+            this.skillGroupBox.Controls.Add(this.skill22);
+            this.skillGroupBox.Controls.Add(this.numericUpDown23);
+            this.skillGroupBox.Controls.Add(this.skill23);
+            this.skillGroupBox.Controls.Add(this.numericUpDown24);
+            this.skillGroupBox.Controls.Add(this.skill24);
+            this.skillGroupBox.Controls.Add(this.numericUpDown25);
+            this.skillGroupBox.Controls.Add(this.skill25);
+            this.skillGroupBox.Controls.Add(this.numericUpDown26);
+            this.skillGroupBox.Controls.Add(this.skill26);
+            this.skillGroupBox.Controls.Add(this.numericUpDown27);
+            this.skillGroupBox.Controls.Add(this.skill27);
+            this.skillGroupBox.Controls.Add(this.numericUpDown10);
+            this.skillGroupBox.Controls.Add(this.skill10);
+            this.skillGroupBox.Controls.Add(this.numericUpDown11);
+            this.skillGroupBox.Controls.Add(this.skill11);
+            this.skillGroupBox.Controls.Add(this.numericUpDown12);
+            this.skillGroupBox.Controls.Add(this.skill12);
+            this.skillGroupBox.Controls.Add(this.numericUpDown13);
+            this.skillGroupBox.Controls.Add(this.skill13);
+            this.skillGroupBox.Controls.Add(this.numericUpDown14);
+            this.skillGroupBox.Controls.Add(this.skill14);
+            this.skillGroupBox.Controls.Add(this.numericUpDown15);
+            this.skillGroupBox.Controls.Add(this.skill15);
+            this.skillGroupBox.Controls.Add(this.numericUpDown16);
+            this.skillGroupBox.Controls.Add(this.skill16);
+            this.skillGroupBox.Controls.Add(this.numericUpDown17);
+            this.skillGroupBox.Controls.Add(this.skill17);
+            this.skillGroupBox.Controls.Add(this.numericUpDown18);
+            this.skillGroupBox.Controls.Add(this.skill18);
+            this.skillGroupBox.Controls.Add(this.numericUpDown9);
+            this.skillGroupBox.Controls.Add(this.skill9);
+            this.skillGroupBox.Controls.Add(this.numericUpDown8);
+            this.skillGroupBox.Controls.Add(this.skill8);
+            this.skillGroupBox.Controls.Add(this.numericUpDown7);
+            this.skillGroupBox.Controls.Add(this.skill7);
+            this.skillGroupBox.Controls.Add(this.numericUpDown6);
+            this.skillGroupBox.Controls.Add(this.skill6);
+            this.skillGroupBox.Controls.Add(this.numericUpDown5);
+            this.skillGroupBox.Controls.Add(this.skill5);
+            this.skillGroupBox.Controls.Add(this.numericUpDown4);
+            this.skillGroupBox.Controls.Add(this.skill4);
+            this.skillGroupBox.Controls.Add(this.numericUpDown3);
+            this.skillGroupBox.Controls.Add(this.skill3);
+            this.skillGroupBox.Controls.Add(this.numericUpDown2);
+            this.skillGroupBox.Controls.Add(this.skill2);
+            this.skillGroupBox.Controls.Add(this.numericUpDown1);
+            this.skillGroupBox.Controls.Add(this.skill1);
+            this.skillGroupBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.skillGroupBox.Location = new System.Drawing.Point(13, 38);
+            this.skillGroupBox.Name = "skillGroupBox";
+            this.skillGroupBox.Size = new System.Drawing.Size(673, 454);
+            this.skillGroupBox.TabIndex = 2;
+            this.skillGroupBox.TabStop = false;
+            this.skillGroupBox.Text = "Stats";
+            // 
+            // userGroupBox
+            // 
+            this.userGroupBox.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.userGroupBox.Controls.Add(this._profileName);
+            this.userGroupBox.Controls.Add(this._gameEdition);
+            this.userGroupBox.Location = new System.Drawing.Point(237, 32);
+            this.userGroupBox.Name = "userGroupBox";
+            this.userGroupBox.Size = new System.Drawing.Size(416, 38);
+            this.userGroupBox.TabIndex = 3;
+            this.userGroupBox.TabStop = false;
+            this.userGroupBox.Text = "User";
+            // 
+            // _profileName
+            // 
+            this._profileName.AutoSize = true;
+            this._profileName.Location = new System.Drawing.Point(75, 16);
+            this._profileName.Name = "_profileName";
+            this._profileName.Size = new System.Drawing.Size(64, 13);
+            this._profileName.TabIndex = 0;
+            this._profileName.Text = "ProfileName";
+            // 
+            // _gameEdition
+            // 
+            this._gameEdition.AutoSize = true;
+            this._gameEdition.Location = new System.Drawing.Point(226, 16);
+            this._gameEdition.Name = "_gameEdition";
+            this._gameEdition.Size = new System.Drawing.Size(67, 13);
+            this._gameEdition.TabIndex = 1;
+            this._gameEdition.Text = "GameEdition";
+            // 
+            // zeroAllSkillPointsButton
+            // 
+            this.zeroAllSkillPointsButton.Location = new System.Drawing.Point(126, 32);
+            this.zeroAllSkillPointsButton.Name = "zeroAllSkillPointsButton";
+            this.zeroAllSkillPointsButton.Size = new System.Drawing.Size(83, 38);
+            this.zeroAllSkillPointsButton.TabIndex = 109;
+            this.zeroAllSkillPointsButton.Text = "Zero ALL";
+            this.zeroAllSkillPointsButton.UseVisualStyleBackColor = true;
+            this.zeroAllSkillPointsButton.Click += new System.EventHandler(this.zeroAllSkillPointsButton_Click);
+            // 
+            // maxAllSkillPointsButton
+            // 
+            this.maxAllSkillPointsButton.Location = new System.Drawing.Point(21, 32);
+            this.maxAllSkillPointsButton.Name = "maxAllSkillPointsButton";
+            this.maxAllSkillPointsButton.Size = new System.Drawing.Size(83, 38);
+            this.maxAllSkillPointsButton.TabIndex = 108;
+            this.maxAllSkillPointsButton.Text = "Max ALL";
+            this.maxAllSkillPointsButton.UseVisualStyleBackColor = true;
+            this.maxAllSkillPointsButton.Click += new System.EventHandler(this.maxAllSkillPointsButton_Click);
             // 
             // numericUpDown46
             // 
-            this.numericUpDown46.Location = new System.Drawing.Point(488, 294);
+            this.numericUpDown46.Location = new System.Drawing.Point(570, 343);
             this.numericUpDown46.Name = "numericUpDown46";
             this.numericUpDown46.Size = new System.Drawing.Size(83, 20);
             this.numericUpDown46.TabIndex = 107;
             // 
-            // label46
+            // skill46
             // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(488, 277);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(41, 13);
-            this.label46.TabIndex = 106;
-            this.label46.Text = "label46";
+            this.skill46.AutoSize = true;
+            this.skill46.Location = new System.Drawing.Point(567, 327);
+            this.skill46.Name = "skill46";
+            this.skill46.Size = new System.Drawing.Size(26, 13);
+            this.skill46.TabIndex = 106;
+            this.skill46.Text = "Skill";
             // 
             // numericUpDown47
             // 
-            this.numericUpDown47.Location = new System.Drawing.Point(488, 250);
+            this.numericUpDown47.Location = new System.Drawing.Point(570, 304);
             this.numericUpDown47.Name = "numericUpDown47";
             this.numericUpDown47.Size = new System.Drawing.Size(83, 20);
             this.numericUpDown47.TabIndex = 105;
             // 
-            // label47
+            // skill47
             // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(488, 233);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(41, 13);
-            this.label47.TabIndex = 104;
-            this.label47.Text = "label47";
+            this.skill47.AutoSize = true;
+            this.skill47.Location = new System.Drawing.Point(567, 288);
+            this.skill47.Name = "skill47";
+            this.skill47.Size = new System.Drawing.Size(26, 13);
+            this.skill47.TabIndex = 104;
+            this.skill47.Text = "Skill";
             // 
             // numericUpDown48
             // 
-            this.numericUpDown48.Location = new System.Drawing.Point(488, 206);
+            this.numericUpDown48.Location = new System.Drawing.Point(570, 265);
             this.numericUpDown48.Name = "numericUpDown48";
             this.numericUpDown48.Size = new System.Drawing.Size(83, 20);
             this.numericUpDown48.TabIndex = 103;
             // 
-            // label48
+            // skill48
             // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(488, 189);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(41, 13);
-            this.label48.TabIndex = 102;
-            this.label48.Text = "label48";
+            this.skill48.AutoSize = true;
+            this.skill48.Location = new System.Drawing.Point(567, 249);
+            this.skill48.Name = "skill48";
+            this.skill48.Size = new System.Drawing.Size(26, 13);
+            this.skill48.TabIndex = 102;
+            this.skill48.Text = "Skill";
             // 
             // numericUpDown49
             // 
-            this.numericUpDown49.Location = new System.Drawing.Point(488, 162);
+            this.numericUpDown49.Location = new System.Drawing.Point(570, 226);
             this.numericUpDown49.Name = "numericUpDown49";
             this.numericUpDown49.Size = new System.Drawing.Size(83, 20);
             this.numericUpDown49.TabIndex = 101;
             // 
-            // label49
+            // skill49
             // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(485, 146);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(41, 13);
-            this.label49.TabIndex = 100;
-            this.label49.Text = "label49";
+            this.skill49.AutoSize = true;
+            this.skill49.Location = new System.Drawing.Point(567, 210);
+            this.skill49.Name = "skill49";
+            this.skill49.Size = new System.Drawing.Size(26, 13);
+            this.skill49.TabIndex = 100;
+            this.skill49.Text = "Skill";
             // 
             // numericUpDown50
             // 
-            this.numericUpDown50.Location = new System.Drawing.Point(488, 123);
+            this.numericUpDown50.Location = new System.Drawing.Point(570, 187);
             this.numericUpDown50.Name = "numericUpDown50";
             this.numericUpDown50.Size = new System.Drawing.Size(83, 20);
             this.numericUpDown50.TabIndex = 99;
             // 
-            // label50
+            // skill50
             // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(485, 107);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(41, 13);
-            this.label50.TabIndex = 98;
-            this.label50.Text = "label50";
+            this.skill50.AutoSize = true;
+            this.skill50.Location = new System.Drawing.Point(567, 171);
+            this.skill50.Name = "skill50";
+            this.skill50.Size = new System.Drawing.Size(26, 13);
+            this.skill50.TabIndex = 98;
+            this.skill50.Text = "Skill";
             // 
             // numericUpDown51
             // 
-            this.numericUpDown51.Location = new System.Drawing.Point(488, 84);
+            this.numericUpDown51.Location = new System.Drawing.Point(570, 146);
             this.numericUpDown51.Name = "numericUpDown51";
             this.numericUpDown51.Size = new System.Drawing.Size(83, 20);
             this.numericUpDown51.TabIndex = 97;
             // 
-            // label51
+            // skill51
             // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(485, 67);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(41, 13);
-            this.label51.TabIndex = 96;
-            this.label51.Text = "label51";
+            this.skill51.AutoSize = true;
+            this.skill51.Location = new System.Drawing.Point(567, 130);
+            this.skill51.Name = "skill51";
+            this.skill51.Size = new System.Drawing.Size(26, 13);
+            this.skill51.TabIndex = 96;
+            this.skill51.Text = "Skill";
             // 
             // numericUpDown52
             // 
-            this.numericUpDown52.Location = new System.Drawing.Point(488, 44);
+            this.numericUpDown52.Location = new System.Drawing.Point(570, 107);
             this.numericUpDown52.Name = "numericUpDown52";
             this.numericUpDown52.Size = new System.Drawing.Size(83, 20);
             this.numericUpDown52.TabIndex = 95;
             // 
-            // label52
+            // skill52
             // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(485, 27);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(41, 13);
-            this.label52.TabIndex = 94;
-            this.label52.Text = "label52";
+            this.skill52.AutoSize = true;
+            this.skill52.Location = new System.Drawing.Point(567, 91);
+            this.skill52.Name = "skill52";
+            this.skill52.Size = new System.Drawing.Size(26, 13);
+            this.skill52.TabIndex = 94;
+            this.skill52.Text = "Skill";
             // 
-            // button1
+            // numericUpDown37
             // 
-            this.button1.Location = new System.Drawing.Point(488, 324);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 32);
-            this.button1.TabIndex = 108;
-            this.button1.Text = "Max ALL";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.numericUpDown37.Location = new System.Drawing.Point(466, 421);
+            this.numericUpDown37.Name = "numericUpDown37";
+            this.numericUpDown37.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown37.TabIndex = 89;
             // 
-            // button2
+            // skill37
             // 
-            this.button2.Location = new System.Drawing.Point(488, 363);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 29);
-            this.button2.TabIndex = 109;
-            this.button2.Text = "Zero ALL";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.skill37.AutoSize = true;
+            this.skill37.Location = new System.Drawing.Point(463, 403);
+            this.skill37.Name = "skill37";
+            this.skill37.Size = new System.Drawing.Size(26, 13);
+            this.skill37.TabIndex = 88;
+            this.skill37.Text = "Skill";
             // 
-            // Form1
+            // numericUpDown38
+            // 
+            this.numericUpDown38.Location = new System.Drawing.Point(466, 380);
+            this.numericUpDown38.Name = "numericUpDown38";
+            this.numericUpDown38.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown38.TabIndex = 87;
+            // 
+            // skill38
+            // 
+            this.skill38.AutoSize = true;
+            this.skill38.Location = new System.Drawing.Point(463, 364);
+            this.skill38.Name = "skill38";
+            this.skill38.Size = new System.Drawing.Size(26, 13);
+            this.skill38.TabIndex = 86;
+            this.skill38.Text = "Skill";
+            // 
+            // numericUpDown39
+            // 
+            this.numericUpDown39.Location = new System.Drawing.Point(466, 341);
+            this.numericUpDown39.Name = "numericUpDown39";
+            this.numericUpDown39.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown39.TabIndex = 85;
+            // 
+            // skill39
+            // 
+            this.skill39.AutoSize = true;
+            this.skill39.Location = new System.Drawing.Point(463, 325);
+            this.skill39.Name = "skill39";
+            this.skill39.Size = new System.Drawing.Size(26, 13);
+            this.skill39.TabIndex = 84;
+            this.skill39.Text = "Skill";
+            // 
+            // numericUpDown40
+            // 
+            this.numericUpDown40.Location = new System.Drawing.Point(466, 302);
+            this.numericUpDown40.Name = "numericUpDown40";
+            this.numericUpDown40.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown40.TabIndex = 83;
+            // 
+            // skill40
+            // 
+            this.skill40.AutoSize = true;
+            this.skill40.Location = new System.Drawing.Point(463, 286);
+            this.skill40.Name = "skill40";
+            this.skill40.Size = new System.Drawing.Size(26, 13);
+            this.skill40.TabIndex = 82;
+            this.skill40.Text = "Skill";
+            // 
+            // numericUpDown41
+            // 
+            this.numericUpDown41.Location = new System.Drawing.Point(466, 263);
+            this.numericUpDown41.Name = "numericUpDown41";
+            this.numericUpDown41.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown41.TabIndex = 81;
+            // 
+            // skill41
+            // 
+            this.skill41.AutoSize = true;
+            this.skill41.Location = new System.Drawing.Point(463, 247);
+            this.skill41.Name = "skill41";
+            this.skill41.Size = new System.Drawing.Size(26, 13);
+            this.skill41.TabIndex = 80;
+            this.skill41.Text = "Skill";
+            // 
+            // numericUpDown42
+            // 
+            this.numericUpDown42.Location = new System.Drawing.Point(466, 224);
+            this.numericUpDown42.Name = "numericUpDown42";
+            this.numericUpDown42.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown42.TabIndex = 79;
+            // 
+            // skill42
+            // 
+            this.skill42.AutoSize = true;
+            this.skill42.Location = new System.Drawing.Point(463, 208);
+            this.skill42.Name = "skill42";
+            this.skill42.Size = new System.Drawing.Size(26, 13);
+            this.skill42.TabIndex = 78;
+            this.skill42.Text = "Skill";
+            // 
+            // numericUpDown43
+            // 
+            this.numericUpDown43.Location = new System.Drawing.Point(466, 185);
+            this.numericUpDown43.Name = "numericUpDown43";
+            this.numericUpDown43.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown43.TabIndex = 77;
+            // 
+            // skill43
+            // 
+            this.skill43.AutoSize = true;
+            this.skill43.Location = new System.Drawing.Point(463, 169);
+            this.skill43.Name = "skill43";
+            this.skill43.Size = new System.Drawing.Size(26, 13);
+            this.skill43.TabIndex = 76;
+            this.skill43.Text = "Skill";
+            // 
+            // numericUpDown44
+            // 
+            this.numericUpDown44.Location = new System.Drawing.Point(466, 146);
+            this.numericUpDown44.Name = "numericUpDown44";
+            this.numericUpDown44.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown44.TabIndex = 75;
+            // 
+            // skill44
+            // 
+            this.skill44.AutoSize = true;
+            this.skill44.Location = new System.Drawing.Point(463, 130);
+            this.skill44.Name = "skill44";
+            this.skill44.Size = new System.Drawing.Size(26, 13);
+            this.skill44.TabIndex = 74;
+            this.skill44.Text = "Skill";
+            // 
+            // numericUpDown45
+            // 
+            this.numericUpDown45.Location = new System.Drawing.Point(466, 107);
+            this.numericUpDown45.Name = "numericUpDown45";
+            this.numericUpDown45.Size = new System.Drawing.Size(85, 20);
+            this.numericUpDown45.TabIndex = 73;
+            // 
+            // skill45
+            // 
+            this.skill45.AutoSize = true;
+            this.skill45.Location = new System.Drawing.Point(463, 91);
+            this.skill45.Name = "skill45";
+            this.skill45.Size = new System.Drawing.Size(26, 13);
+            this.skill45.TabIndex = 72;
+            this.skill45.Text = "Skill";
+            // 
+            // numericUpDown28
+            // 
+            this.numericUpDown28.Location = new System.Drawing.Point(353, 421);
+            this.numericUpDown28.Name = "numericUpDown28";
+            this.numericUpDown28.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown28.TabIndex = 71;
+            // 
+            // skill28
+            // 
+            this.skill28.AutoSize = true;
+            this.skill28.Location = new System.Drawing.Point(350, 403);
+            this.skill28.Name = "skill28";
+            this.skill28.Size = new System.Drawing.Size(26, 13);
+            this.skill28.TabIndex = 70;
+            this.skill28.Text = "Skill";
+            // 
+            // numericUpDown29
+            // 
+            this.numericUpDown29.Location = new System.Drawing.Point(353, 380);
+            this.numericUpDown29.Name = "numericUpDown29";
+            this.numericUpDown29.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown29.TabIndex = 69;
+            // 
+            // skill29
+            // 
+            this.skill29.AutoSize = true;
+            this.skill29.Location = new System.Drawing.Point(350, 364);
+            this.skill29.Name = "skill29";
+            this.skill29.Size = new System.Drawing.Size(26, 13);
+            this.skill29.TabIndex = 68;
+            this.skill29.Text = "Skill";
+            // 
+            // numericUpDown30
+            // 
+            this.numericUpDown30.Location = new System.Drawing.Point(353, 341);
+            this.numericUpDown30.Name = "numericUpDown30";
+            this.numericUpDown30.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown30.TabIndex = 67;
+            // 
+            // skill30
+            // 
+            this.skill30.AutoSize = true;
+            this.skill30.Location = new System.Drawing.Point(350, 325);
+            this.skill30.Name = "skill30";
+            this.skill30.Size = new System.Drawing.Size(26, 13);
+            this.skill30.TabIndex = 66;
+            this.skill30.Text = "Skill";
+            // 
+            // numericUpDown31
+            // 
+            this.numericUpDown31.Location = new System.Drawing.Point(353, 302);
+            this.numericUpDown31.Name = "numericUpDown31";
+            this.numericUpDown31.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown31.TabIndex = 65;
+            // 
+            // skill31
+            // 
+            this.skill31.AutoSize = true;
+            this.skill31.Location = new System.Drawing.Point(350, 286);
+            this.skill31.Name = "skill31";
+            this.skill31.Size = new System.Drawing.Size(26, 13);
+            this.skill31.TabIndex = 64;
+            this.skill31.Text = "Skill";
+            // 
+            // numericUpDown32
+            // 
+            this.numericUpDown32.Location = new System.Drawing.Point(353, 263);
+            this.numericUpDown32.Name = "numericUpDown32";
+            this.numericUpDown32.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown32.TabIndex = 63;
+            // 
+            // skill32
+            // 
+            this.skill32.AutoSize = true;
+            this.skill32.Location = new System.Drawing.Point(350, 247);
+            this.skill32.Name = "skill32";
+            this.skill32.Size = new System.Drawing.Size(26, 13);
+            this.skill32.TabIndex = 62;
+            this.skill32.Text = "Skill";
+            // 
+            // numericUpDown33
+            // 
+            this.numericUpDown33.Location = new System.Drawing.Point(353, 224);
+            this.numericUpDown33.Name = "numericUpDown33";
+            this.numericUpDown33.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown33.TabIndex = 61;
+            // 
+            // skill33
+            // 
+            this.skill33.AutoSize = true;
+            this.skill33.Location = new System.Drawing.Point(350, 208);
+            this.skill33.Name = "skill33";
+            this.skill33.Size = new System.Drawing.Size(26, 13);
+            this.skill33.TabIndex = 60;
+            this.skill33.Text = "Skill";
+            // 
+            // numericUpDown34
+            // 
+            this.numericUpDown34.Location = new System.Drawing.Point(353, 185);
+            this.numericUpDown34.Name = "numericUpDown34";
+            this.numericUpDown34.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown34.TabIndex = 59;
+            // 
+            // skill34
+            // 
+            this.skill34.AutoSize = true;
+            this.skill34.Location = new System.Drawing.Point(350, 169);
+            this.skill34.Name = "skill34";
+            this.skill34.Size = new System.Drawing.Size(26, 13);
+            this.skill34.TabIndex = 58;
+            this.skill34.Text = "Skill";
+            // 
+            // numericUpDown35
+            // 
+            this.numericUpDown35.Location = new System.Drawing.Point(353, 144);
+            this.numericUpDown35.Name = "numericUpDown35";
+            this.numericUpDown35.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown35.TabIndex = 57;
+            // 
+            // skill35
+            // 
+            this.skill35.AutoSize = true;
+            this.skill35.Location = new System.Drawing.Point(350, 128);
+            this.skill35.Name = "skill35";
+            this.skill35.Size = new System.Drawing.Size(26, 13);
+            this.skill35.TabIndex = 56;
+            this.skill35.Text = "Skill";
+            // 
+            // numericUpDown36
+            // 
+            this.numericUpDown36.Location = new System.Drawing.Point(353, 107);
+            this.numericUpDown36.Name = "numericUpDown36";
+            this.numericUpDown36.Size = new System.Drawing.Size(95, 20);
+            this.numericUpDown36.TabIndex = 55;
+            // 
+            // skill36
+            // 
+            this.skill36.AutoSize = true;
+            this.skill36.Location = new System.Drawing.Point(355, 91);
+            this.skill36.Name = "skill36";
+            this.skill36.Size = new System.Drawing.Size(26, 13);
+            this.skill36.TabIndex = 54;
+            this.skill36.Text = "Skill";
+            // 
+            // numericUpDown19
+            // 
+            this.numericUpDown19.Location = new System.Drawing.Point(237, 421);
+            this.numericUpDown19.Name = "numericUpDown19";
+            this.numericUpDown19.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown19.TabIndex = 53;
+            // 
+            // skill19
+            // 
+            this.skill19.AutoSize = true;
+            this.skill19.Location = new System.Drawing.Point(234, 403);
+            this.skill19.Name = "skill19";
+            this.skill19.Size = new System.Drawing.Size(26, 13);
+            this.skill19.TabIndex = 52;
+            this.skill19.Text = "Skill";
+            // 
+            // numericUpDown20
+            // 
+            this.numericUpDown20.Location = new System.Drawing.Point(237, 380);
+            this.numericUpDown20.Name = "numericUpDown20";
+            this.numericUpDown20.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown20.TabIndex = 51;
+            // 
+            // skill20
+            // 
+            this.skill20.AutoSize = true;
+            this.skill20.Location = new System.Drawing.Point(234, 364);
+            this.skill20.Name = "skill20";
+            this.skill20.Size = new System.Drawing.Size(26, 13);
+            this.skill20.TabIndex = 50;
+            this.skill20.Text = "Skill";
+            // 
+            // numericUpDown21
+            // 
+            this.numericUpDown21.Location = new System.Drawing.Point(237, 341);
+            this.numericUpDown21.Name = "numericUpDown21";
+            this.numericUpDown21.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown21.TabIndex = 49;
+            // 
+            // skill21
+            // 
+            this.skill21.AutoSize = true;
+            this.skill21.Location = new System.Drawing.Point(234, 325);
+            this.skill21.Name = "skill21";
+            this.skill21.Size = new System.Drawing.Size(26, 13);
+            this.skill21.TabIndex = 48;
+            this.skill21.Text = "Skill";
+            // 
+            // numericUpDown22
+            // 
+            this.numericUpDown22.Location = new System.Drawing.Point(237, 302);
+            this.numericUpDown22.Name = "numericUpDown22";
+            this.numericUpDown22.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown22.TabIndex = 47;
+            // 
+            // skill22
+            // 
+            this.skill22.AutoSize = true;
+            this.skill22.Location = new System.Drawing.Point(234, 286);
+            this.skill22.Name = "skill22";
+            this.skill22.Size = new System.Drawing.Size(26, 13);
+            this.skill22.TabIndex = 46;
+            this.skill22.Text = "Skill";
+            // 
+            // numericUpDown23
+            // 
+            this.numericUpDown23.Location = new System.Drawing.Point(237, 263);
+            this.numericUpDown23.Name = "numericUpDown23";
+            this.numericUpDown23.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown23.TabIndex = 45;
+            // 
+            // skill23
+            // 
+            this.skill23.AutoSize = true;
+            this.skill23.Location = new System.Drawing.Point(234, 247);
+            this.skill23.Name = "skill23";
+            this.skill23.Size = new System.Drawing.Size(26, 13);
+            this.skill23.TabIndex = 44;
+            this.skill23.Text = "Skill";
+            // 
+            // numericUpDown24
+            // 
+            this.numericUpDown24.Location = new System.Drawing.Point(237, 224);
+            this.numericUpDown24.Name = "numericUpDown24";
+            this.numericUpDown24.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown24.TabIndex = 43;
+            // 
+            // skill24
+            // 
+            this.skill24.AutoSize = true;
+            this.skill24.Location = new System.Drawing.Point(234, 208);
+            this.skill24.Name = "skill24";
+            this.skill24.Size = new System.Drawing.Size(26, 13);
+            this.skill24.TabIndex = 42;
+            this.skill24.Text = "Skill";
+            // 
+            // numericUpDown25
+            // 
+            this.numericUpDown25.Location = new System.Drawing.Point(237, 185);
+            this.numericUpDown25.Name = "numericUpDown25";
+            this.numericUpDown25.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown25.TabIndex = 41;
+            // 
+            // skill25
+            // 
+            this.skill25.AutoSize = true;
+            this.skill25.Location = new System.Drawing.Point(234, 169);
+            this.skill25.Name = "skill25";
+            this.skill25.Size = new System.Drawing.Size(26, 13);
+            this.skill25.TabIndex = 40;
+            this.skill25.Text = "Skill";
+            // 
+            // numericUpDown26
+            // 
+            this.numericUpDown26.Location = new System.Drawing.Point(237, 146);
+            this.numericUpDown26.Name = "numericUpDown26";
+            this.numericUpDown26.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown26.TabIndex = 39;
+            // 
+            // skill26
+            // 
+            this.skill26.AutoSize = true;
+            this.skill26.Location = new System.Drawing.Point(234, 130);
+            this.skill26.Name = "skill26";
+            this.skill26.Size = new System.Drawing.Size(26, 13);
+            this.skill26.TabIndex = 38;
+            this.skill26.Text = "Skill";
+            // 
+            // numericUpDown27
+            // 
+            this.numericUpDown27.Location = new System.Drawing.Point(237, 107);
+            this.numericUpDown27.Name = "numericUpDown27";
+            this.numericUpDown27.Size = new System.Drawing.Size(98, 20);
+            this.numericUpDown27.TabIndex = 37;
+            // 
+            // skill27
+            // 
+            this.skill27.AutoSize = true;
+            this.skill27.Location = new System.Drawing.Point(234, 91);
+            this.skill27.Name = "skill27";
+            this.skill27.Size = new System.Drawing.Size(26, 13);
+            this.skill27.TabIndex = 36;
+            this.skill27.Text = "Skill";
+            // 
+            // numericUpDown10
+            // 
+            this.numericUpDown10.Location = new System.Drawing.Point(126, 419);
+            this.numericUpDown10.Name = "numericUpDown10";
+            this.numericUpDown10.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown10.TabIndex = 35;
+            // 
+            // skill10
+            // 
+            this.skill10.AutoSize = true;
+            this.skill10.Location = new System.Drawing.Point(123, 403);
+            this.skill10.Name = "skill10";
+            this.skill10.Size = new System.Drawing.Size(26, 13);
+            this.skill10.TabIndex = 34;
+            this.skill10.Text = "Skill";
+            // 
+            // numericUpDown11
+            // 
+            this.numericUpDown11.Location = new System.Drawing.Point(126, 380);
+            this.numericUpDown11.Name = "numericUpDown11";
+            this.numericUpDown11.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown11.TabIndex = 33;
+            // 
+            // skill11
+            // 
+            this.skill11.AutoSize = true;
+            this.skill11.Location = new System.Drawing.Point(123, 364);
+            this.skill11.Name = "skill11";
+            this.skill11.Size = new System.Drawing.Size(26, 13);
+            this.skill11.TabIndex = 32;
+            this.skill11.Text = "Skill";
+            // 
+            // numericUpDown12
+            // 
+            this.numericUpDown12.Location = new System.Drawing.Point(126, 341);
+            this.numericUpDown12.Name = "numericUpDown12";
+            this.numericUpDown12.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown12.TabIndex = 31;
+            // 
+            // skill12
+            // 
+            this.skill12.AutoSize = true;
+            this.skill12.Location = new System.Drawing.Point(123, 325);
+            this.skill12.Name = "skill12";
+            this.skill12.Size = new System.Drawing.Size(26, 13);
+            this.skill12.TabIndex = 30;
+            this.skill12.Text = "Skill";
+            // 
+            // numericUpDown13
+            // 
+            this.numericUpDown13.Location = new System.Drawing.Point(126, 302);
+            this.numericUpDown13.Name = "numericUpDown13";
+            this.numericUpDown13.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown13.TabIndex = 29;
+            // 
+            // skill13
+            // 
+            this.skill13.AutoSize = true;
+            this.skill13.Location = new System.Drawing.Point(123, 286);
+            this.skill13.Name = "skill13";
+            this.skill13.Size = new System.Drawing.Size(26, 13);
+            this.skill13.TabIndex = 28;
+            this.skill13.Text = "Skill";
+            // 
+            // numericUpDown14
+            // 
+            this.numericUpDown14.Location = new System.Drawing.Point(126, 263);
+            this.numericUpDown14.Name = "numericUpDown14";
+            this.numericUpDown14.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown14.TabIndex = 27;
+            // 
+            // skill14
+            // 
+            this.skill14.AutoSize = true;
+            this.skill14.Location = new System.Drawing.Point(123, 247);
+            this.skill14.Name = "skill14";
+            this.skill14.Size = new System.Drawing.Size(26, 13);
+            this.skill14.TabIndex = 26;
+            this.skill14.Text = "Skill";
+            // 
+            // numericUpDown15
+            // 
+            this.numericUpDown15.Location = new System.Drawing.Point(126, 224);
+            this.numericUpDown15.Name = "numericUpDown15";
+            this.numericUpDown15.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown15.TabIndex = 25;
+            // 
+            // skill15
+            // 
+            this.skill15.AutoSize = true;
+            this.skill15.Location = new System.Drawing.Point(123, 208);
+            this.skill15.Name = "skill15";
+            this.skill15.Size = new System.Drawing.Size(26, 13);
+            this.skill15.TabIndex = 24;
+            this.skill15.Text = "Skill";
+            // 
+            // numericUpDown16
+            // 
+            this.numericUpDown16.Location = new System.Drawing.Point(126, 185);
+            this.numericUpDown16.Name = "numericUpDown16";
+            this.numericUpDown16.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown16.TabIndex = 23;
+            // 
+            // skill16
+            // 
+            this.skill16.AutoSize = true;
+            this.skill16.Location = new System.Drawing.Point(123, 169);
+            this.skill16.Name = "skill16";
+            this.skill16.Size = new System.Drawing.Size(26, 13);
+            this.skill16.TabIndex = 22;
+            this.skill16.Text = "Skill";
+            // 
+            // numericUpDown17
+            // 
+            this.numericUpDown17.Location = new System.Drawing.Point(126, 146);
+            this.numericUpDown17.Name = "numericUpDown17";
+            this.numericUpDown17.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown17.TabIndex = 21;
+            // 
+            // skill17
+            // 
+            this.skill17.AutoSize = true;
+            this.skill17.Location = new System.Drawing.Point(123, 130);
+            this.skill17.Name = "skill17";
+            this.skill17.Size = new System.Drawing.Size(26, 13);
+            this.skill17.TabIndex = 20;
+            this.skill17.Text = "Skill";
+            // 
+            // numericUpDown18
+            // 
+            this.numericUpDown18.Location = new System.Drawing.Point(126, 107);
+            this.numericUpDown18.Name = "numericUpDown18";
+            this.numericUpDown18.Size = new System.Drawing.Size(91, 20);
+            this.numericUpDown18.TabIndex = 19;
+            // 
+            // skill18
+            // 
+            this.skill18.AutoSize = true;
+            this.skill18.Location = new System.Drawing.Point(123, 91);
+            this.skill18.Name = "skill18";
+            this.skill18.Size = new System.Drawing.Size(26, 13);
+            this.skill18.TabIndex = 18;
+            this.skill18.Text = "Skill";
+            // 
+            // numericUpDown9
+            // 
+            this.numericUpDown9.Location = new System.Drawing.Point(21, 419);
+            this.numericUpDown9.Name = "numericUpDown9";
+            this.numericUpDown9.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown9.TabIndex = 17;
+            // 
+            // skill9
+            // 
+            this.skill9.AutoSize = true;
+            this.skill9.Location = new System.Drawing.Point(18, 403);
+            this.skill9.Name = "skill9";
+            this.skill9.Size = new System.Drawing.Size(26, 13);
+            this.skill9.TabIndex = 16;
+            this.skill9.Text = "Skill";
+            // 
+            // numericUpDown8
+            // 
+            this.numericUpDown8.Location = new System.Drawing.Point(21, 380);
+            this.numericUpDown8.Name = "numericUpDown8";
+            this.numericUpDown8.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown8.TabIndex = 15;
+            // 
+            // skill8
+            // 
+            this.skill8.AutoSize = true;
+            this.skill8.Location = new System.Drawing.Point(18, 364);
+            this.skill8.Name = "skill8";
+            this.skill8.Size = new System.Drawing.Size(26, 13);
+            this.skill8.TabIndex = 14;
+            this.skill8.Text = "Skill";
+            // 
+            // numericUpDown7
+            // 
+            this.numericUpDown7.Location = new System.Drawing.Point(21, 341);
+            this.numericUpDown7.Name = "numericUpDown7";
+            this.numericUpDown7.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown7.TabIndex = 13;
+            // 
+            // skill7
+            // 
+            this.skill7.AutoSize = true;
+            this.skill7.Location = new System.Drawing.Point(18, 325);
+            this.skill7.Name = "skill7";
+            this.skill7.Size = new System.Drawing.Size(26, 13);
+            this.skill7.TabIndex = 12;
+            this.skill7.Text = "Skill";
+            // 
+            // numericUpDown6
+            // 
+            this.numericUpDown6.Location = new System.Drawing.Point(21, 302);
+            this.numericUpDown6.Name = "numericUpDown6";
+            this.numericUpDown6.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown6.TabIndex = 11;
+            // 
+            // skill6
+            // 
+            this.skill6.AutoSize = true;
+            this.skill6.Location = new System.Drawing.Point(18, 286);
+            this.skill6.Name = "skill6";
+            this.skill6.Size = new System.Drawing.Size(26, 13);
+            this.skill6.TabIndex = 10;
+            this.skill6.Text = "Skill";
+            // 
+            // numericUpDown5
+            // 
+            this.numericUpDown5.Location = new System.Drawing.Point(21, 263);
+            this.numericUpDown5.Name = "numericUpDown5";
+            this.numericUpDown5.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown5.TabIndex = 9;
+            // 
+            // skill5
+            // 
+            this.skill5.AutoSize = true;
+            this.skill5.Location = new System.Drawing.Point(18, 247);
+            this.skill5.Name = "skill5";
+            this.skill5.Size = new System.Drawing.Size(26, 13);
+            this.skill5.TabIndex = 8;
+            this.skill5.Text = "Skill";
+            // 
+            // numericUpDown4
+            // 
+            this.numericUpDown4.Location = new System.Drawing.Point(21, 224);
+            this.numericUpDown4.Name = "numericUpDown4";
+            this.numericUpDown4.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown4.TabIndex = 7;
+            // 
+            // skill4
+            // 
+            this.skill4.AutoSize = true;
+            this.skill4.Location = new System.Drawing.Point(18, 208);
+            this.skill4.Name = "skill4";
+            this.skill4.Size = new System.Drawing.Size(26, 13);
+            this.skill4.TabIndex = 6;
+            this.skill4.Text = "Skill";
+            // 
+            // numericUpDown3
+            // 
+            this.numericUpDown3.Location = new System.Drawing.Point(21, 185);
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown3.TabIndex = 5;
+            // 
+            // skill3
+            // 
+            this.skill3.AutoSize = true;
+            this.skill3.Location = new System.Drawing.Point(18, 169);
+            this.skill3.Name = "skill3";
+            this.skill3.Size = new System.Drawing.Size(26, 13);
+            this.skill3.TabIndex = 4;
+            this.skill3.Text = "Skill";
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(21, 146);
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown2.TabIndex = 3;
+            // 
+            // skill2
+            // 
+            this.skill2.AutoSize = true;
+            this.skill2.Location = new System.Drawing.Point(18, 130);
+            this.skill2.Name = "skill2";
+            this.skill2.Size = new System.Drawing.Size(26, 13);
+            this.skill2.TabIndex = 2;
+            this.skill2.Text = "Skill";
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(21, 107);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(83, 20);
+            this.numericUpDown1.TabIndex = 1;
+            // 
+            // skill1
+            // 
+            this.skill1.AutoSize = true;
+            this.skill1.Location = new System.Drawing.Point(18, 91);
+            this.skill1.Name = "skill1";
+            this.skill1.Size = new System.Drawing.Size(26, 13);
+            this.skill1.TabIndex = 0;
+            this.skill1.Text = "Skill";
+            // 
+            // ProfileEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(605, 430);
-            this.Controls.Add(this._gameEdition);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this._profileName);
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(698, 503);
+            this.Controls.Add(this.skillGroupBox);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "ProfileEditor";
+            this.Text = "SPT-AKI Profile Editor";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown36)).EndInit();
+            this.skillGroupBox.ResumeLayout(false);
+            this.skillGroupBox.PerformLayout();
+            this.userGroupBox.ResumeLayout(false);
+            this.userGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown49)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown51)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown52)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown37)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown38)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown39)).EndInit();
@@ -1283,13 +1274,42 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown43)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown44)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1301,115 +1321,116 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label _gameEdition;
         private System.Windows.Forms.Label _profileName;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox skillGroupBox;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label skill2;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label skill1;
         public System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label skill3;
         private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label skill9;
         private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label skill8;
         private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label skill7;
         private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label skill6;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label skill5;
         private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label skill4;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.NumericUpDown numericUpDown46;
-        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label skill46;
         private System.Windows.Forms.NumericUpDown numericUpDown47;
-        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label skill47;
         private System.Windows.Forms.NumericUpDown numericUpDown48;
-        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label skill48;
         private System.Windows.Forms.NumericUpDown numericUpDown49;
-        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label skill49;
         private System.Windows.Forms.NumericUpDown numericUpDown50;
-        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label skill50;
         private System.Windows.Forms.NumericUpDown numericUpDown51;
-        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label skill51;
         private System.Windows.Forms.NumericUpDown numericUpDown52;
-        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label skill52;
         private System.Windows.Forms.NumericUpDown numericUpDown37;
-        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label skill37;
         private System.Windows.Forms.NumericUpDown numericUpDown38;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label skill38;
         private System.Windows.Forms.NumericUpDown numericUpDown39;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label skill39;
         private System.Windows.Forms.NumericUpDown numericUpDown40;
-        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label skill40;
         private System.Windows.Forms.NumericUpDown numericUpDown41;
-        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label skill41;
         private System.Windows.Forms.NumericUpDown numericUpDown42;
-        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label skill42;
         private System.Windows.Forms.NumericUpDown numericUpDown43;
-        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label skill43;
         private System.Windows.Forms.NumericUpDown numericUpDown44;
-        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label skill44;
         private System.Windows.Forms.NumericUpDown numericUpDown45;
-        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label skill45;
         private System.Windows.Forms.NumericUpDown numericUpDown28;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label skill28;
         private System.Windows.Forms.NumericUpDown numericUpDown29;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label skill29;
         private System.Windows.Forms.NumericUpDown numericUpDown30;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label skill30;
         private System.Windows.Forms.NumericUpDown numericUpDown31;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label skill31;
         private System.Windows.Forms.NumericUpDown numericUpDown32;
-        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label skill32;
         private System.Windows.Forms.NumericUpDown numericUpDown33;
-        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label skill33;
         private System.Windows.Forms.NumericUpDown numericUpDown34;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label skill34;
         private System.Windows.Forms.NumericUpDown numericUpDown35;
-        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label skill35;
         private System.Windows.Forms.NumericUpDown numericUpDown36;
-        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label skill36;
         private System.Windows.Forms.NumericUpDown numericUpDown19;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label skill19;
         private System.Windows.Forms.NumericUpDown numericUpDown20;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label skill20;
         private System.Windows.Forms.NumericUpDown numericUpDown21;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label skill21;
         private System.Windows.Forms.NumericUpDown numericUpDown22;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label skill22;
         private System.Windows.Forms.NumericUpDown numericUpDown23;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label skill23;
         private System.Windows.Forms.NumericUpDown numericUpDown24;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label skill24;
         private System.Windows.Forms.NumericUpDown numericUpDown25;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label skill25;
         private System.Windows.Forms.NumericUpDown numericUpDown26;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label skill26;
         private System.Windows.Forms.NumericUpDown numericUpDown27;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label skill27;
         private System.Windows.Forms.NumericUpDown numericUpDown10;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label skill10;
         private System.Windows.Forms.NumericUpDown numericUpDown11;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label skill11;
         private System.Windows.Forms.NumericUpDown numericUpDown12;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label skill12;
         private System.Windows.Forms.NumericUpDown numericUpDown13;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label skill13;
         private System.Windows.Forms.NumericUpDown numericUpDown14;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label skill14;
         private System.Windows.Forms.NumericUpDown numericUpDown15;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label skill15;
         private System.Windows.Forms.NumericUpDown numericUpDown16;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label skill16;
         private System.Windows.Forms.NumericUpDown numericUpDown17;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label skill17;
         private System.Windows.Forms.NumericUpDown numericUpDown18;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label skill18;
+        private System.Windows.Forms.Button maxAllSkillPointsButton;
+        private System.Windows.Forms.Button zeroAllSkillPointsButton;
+        private System.Windows.Forms.GroupBox userGroupBox;
     }
 }
 
