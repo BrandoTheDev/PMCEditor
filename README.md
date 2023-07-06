@@ -2,7 +2,7 @@
 > Edit the skill points for your PMC on [Single Player Tarkov (SPT).](https://hub.sp-tarkov.com/files/file/1312-pmc-skill-editor/)
 
 # ***Installation***
-1. Download and Unzip PMCEditor from [Releases](https://github.com/BrandoTheDev/PMCEditor/releases/download/v1.0.2/PMCEditor.zip)
+1. Download and Unzip PMCEditor from [Releases](https://github.com/BrandoTheDev/PMCEditor/releases/download/v2.0.1/PMCEditor.zip)
 2. Place PMCEditor and the Netownsoft Dll anywhere together.
 4. Run the program and click File-> Open
 6. Find the folder SPT-AKI/user/profiles/
